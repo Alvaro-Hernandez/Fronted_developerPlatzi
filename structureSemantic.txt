@@ -15,3 +15,16 @@ Y la forma en la que Google puede entenderlo es básicamente leyendo tu HTML. Y 
 ¿Eso significa que nunca debería usar <div>? ¡No! Por supuesto que puedes usar <div>, esta etiqueta es muy útil cuando queremos hacer estilos con CSS, por ejemplo. Cuando decimos "no uses <div>" nos referimos a que no deberíamos usarlo para organizar el contenido de tu página, porque simplemente Google ignora cualquier <div> mientras lee tu página. Si tú pones un menú de navegación usando <div> Google lo va a ignorar, pero si tú pones un menú de navegación usando <nav> Google sabrá que tu página web tiene un menú de navegación (y te tomará en cuenta para posicionarte 7u7).
 .
 En cambio, si tú quieres mostrar un contenido dividido en 2 partes (izquierda y derecha) y usas <div> para hacerlo, entonces está súper bien, porque a Google no le importa cómo muestres (visualmente) tu contenido, así que en estos casos, <div> nos ayuda mucho cuando queremos hacer cosas visuales con nuestra página 😌.
+
+
+
+Otras etiquetas que también suelen ser muy usadas son estas:
+.
+
+<b>: Pone tu texto en negritas (pero esta etiqueta NO tiene sentido semántico).
+<strong>: También pone tu texto en negrita, pero esta SÍ tiene sentido semántico (Google le da relevancia al texto que pongas ahí).
+<i>: Pone tu texto en cursivas (pero esta etiqueta NO tiene sentido semántico).
+<em>: También pone tu texto en cursivas, pero esta SÍ tiene sentido semántico (Google le da relevancia al texto que pongas ahí).
+<br>: Hace un salto de línea, funciona como si diéramos un enter con el teclado 😄.
+.
+Realmente no hace falta que te sientes a estudiarlas y memorizarlas y aprendértelas, como dijo la profesora, con la práctica y a medida que creas páginas web te las acabarás aprendiendo sí o sí jaja.
