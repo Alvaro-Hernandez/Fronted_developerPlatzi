@@ -1,0 +1,26 @@
+¿Y es mejor Flexbox o CSS Grid? 🤔
+Si te hiciste esta pregunta vamos a aclarar algunas cosas 👀👇:
+.
+En general, en cualquier ámbito del desarrollo web no suele haber una tecnología mejor que otra, y este es el caso de Flexbox y CSS Grid. Ninguna es mejor que otra, de hecho, ¡ambas se complementan! No es como que tengas que elegir sí o sí una, es completamente posible usar ambas al mismo tiempo 👀.
+.
+Por ejemplo, algo que a mí me gusta hacer es usar Flexbox para estilizar elementos pequeños, tipo tarjetitas y así, y después a CSS Grid lo uso para estructurar toda mi página entera OwO. Este es mi modo de trabajar, pero incluso podrías hacerlo al revés, es decir, usar CSS Grid para cositas pequeñas y Flexbox para armar todo tu layout, ¡CSS es muy flexible!
+.
+Estos dos displays son temas muy interesantes y profundos, por esto tenemos un curso hablando específicamente de ellos dos, aquí te dejo una probadita de lo que se puede hacer con Flexblox 7u7 👇:
+.
+
+Flexbox
+Flexbox es magia, con Flexbox podemos literal manipular los elementos a como queramos. ¿Alguna vez has visto el meme de “programadores sufriendo por centrar un div”? Pues Flexbox rompe ese meme de manera épica 😎.
+.
+Con Flexbox podemos alinear los elementos a como queramos, así lo queramos a la izquierda, en el centro o a la derecha, tanto vertical como horizontalmente, por ejemplo, lo más común, centrar un elemento:
+
+
+<div class="container">
+    <p>OwO</p>
+</div>
+
+Stylos
+.container {
+    display: flex;
+    justify-content: center;
+    background: papayawhip;
+}
