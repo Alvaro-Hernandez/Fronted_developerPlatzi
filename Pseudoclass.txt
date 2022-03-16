@@ -1,0 +1,23 @@
+tr:nth-child(odd) o tr:nth-child(2n+1)
+Representa las filas impares de una tabla HTML: 1, 3, 5, etc.
+
+tr:nth-child(even) o tr:nth-child(2n)
+Representa las filas pares de una tabla HTML: 2, 4, 6, etc.
+
+:nth-child(7)
+Representa el séptimo elemento.
+
+:nth-child(5n)
+Representa los elementos 5, 10, 15, etc.
+
+:nth-child(3n+4)
+Representa los elementos 4, 7, 10, 13, etc.
+
+:nth-child(-n+3)
+Representa los primeros tres elementos entre un grupo de hermanos.
+
+p:nth-child(n)
+Representa cada elemento <p> entre un grupo de hermanos. Esto es lo mismo que un simple selector p.
+
+p:nth-child(1) o p:nth-child(0n+1)
+Representa cada <p> que es el primer elemento entre un grupo de hermanos. Esto es lo mismo que el selector :first-child.
