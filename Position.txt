@@ -1,0 +1,41 @@
+¿Qué es position?
+Es la forma en la que podemos posicionar los contenedores, cajas o etiquetas de HTML cuando la utilizamos.
+
+Tenemos diferentes position en CSS, pero todas las etiquetas en HTML vienen por defecto con el position static. Se quedan en donde nosotros las ponemos, no se mueve con el scroll.
+
+Tenemos estos positions
+Absolute
+Relative
+Fixed
+Sticky
+Initial
+Inherit
+Todos estos nos van a dar un comportamiento diferente por cada una de las etiquetas. Las podemos agregar a todas las etiquetas y nos van a dar el mismo comportamiento pero los vamos a utilizar para diferentes cosas.
+
+Static
+Utilizamos este valor no vamos a tener ningún cambio porque todas las etiquetas vienen con este valor.
+
+Cuando estamos en este position no podemos utilizar las propiedades left, top, right y bottom.
+
+Absolute
+Con absolute el elemento sale de su lugar y el navegador reacomoda los elemento, poniendo otro elemento en el lugar del elemento con position absolute. Podemos posicionar al elemento como queramos.
+
+Relative
+Con relative no sucede lo mismo que absolute, el elemento mantiene su lugar, pero podemos posicionarlo donde queramos.
+
+Lo podemos usar como contenedor para que los elementos que tengan un position absolute tomen como referencia al padre que nosotros queremos (se adhiere al elemento relativo más cercano) y no a otro, delimita el movimiento del hijo.
+
+Fixed
+Este valor de position nos permite que el elemento que queramos nos siga a todos lados desde el momento en el que nos topemos con él.
+
+Sticky
+Es similar a fixed con la diferencia que cuando encuentra a otro elemento con su mismo position, sticky, le da lugar al ese elemento.
+
+Initial
+Vuelve el position de un elemento a como estaba originalmente.
+
+Inherit
+Lo usamos si queremos que nuestro elemento herede el position de su padre.
+
+Left, top, right y bottom
+Con estas cuatro propiedades podemos mover a los elementos que tengan como position a absolute, relative fixed o sticky a los lugares que queramos.
